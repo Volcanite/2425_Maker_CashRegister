@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "48ddf8d7-54b6-4c34-8554-2bb8e32bda4b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,7 +110,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 189.23 29.21)
+		(end 224.79 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa84a1a2-38b4-42d7-bdc7-4773aab7829c)
+	)
+	(text "Munting holes\n"
+		(exclude_from_sim no)
+		(at 190.5 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a953e84-c623-48b9-b255-9217bcff9895")
+	)
+	(text "NE PAS OUBLIER GESTION ALIMENTATION BATTERIE OU USB C\n"
+		(exclude_from_sim no)
+		(at 109.982 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efd9fb6d-27a9-45e6-ac44-058a17d455af")
 	)
 	(junction
 		(at 195.58 43.18)
@@ -370,38 +408,15 @@
 		)
 		(uuid "f0f6d8e7-d865-45e5-91f9-b9a2968b731b")
 	)
-	(rectangle
-		(start 189.23 29.21)
-		(end 224.79 67.31)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa84a1a2-38b4-42d7-bdc7-4773aab7829c)
-	)
-	(text "Munting holes\n"
-		(exclude_from_sim no)
-		(at 190.5 31.75 0)
+	(label "Changer les noms des row{slash}column pour des noms explicites"
+		(at 78.74 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7a953e84-c623-48b9-b255-9217bcff9895")
-	)
-	(text "NE PAS OUBLIER GESTION ALIMENTATION BATTERIE OU USB C\n"
-		(exclude_from_sim no)
-		(at 109.982 65.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "efd9fb6d-27a9-45e6-ac44-058a17d455af")
+		(uuid "9c6f135f-167f-4803-9616-c0409a34a5a6")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -674,6 +689,10 @@
 	(sheet
 		(at 50.8 73.66)
 		(size 41.91 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -703,183 +722,183 @@
 		)
 		(pin "GPIOC_PIN6" input
 			(at 92.71 102.87 0)
+			(uuid "3daafdc7-e5a5-49d2-aa3e-fbb5477cea9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3daafdc7-e5a5-49d2-aa3e-fbb5477cea9c")
 		)
 		(pin "GPIOA_PIN0" input
 			(at 92.71 116.84 0)
+			(uuid "cfac1ac2-6534-4c96-9328-01d3c3454240")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cfac1ac2-6534-4c96-9328-01d3c3454240")
 		)
 		(pin "UART2_RX" input
 			(at 92.71 119.38 0)
+			(uuid "da8b8245-af68-48f0-95cc-c158bb071b39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "da8b8245-af68-48f0-95cc-c158bb071b39")
 		)
 		(pin "UART2_TX" output
 			(at 92.71 121.92 0)
+			(uuid "5bbfecbc-cabc-43e0-8a4f-83d4598beb7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5bbfecbc-cabc-43e0-8a4f-83d4598beb7f")
 		)
 		(pin "GPIOA_PIN10" input
 			(at 92.71 95.25 0)
+			(uuid "5f083f83-a15c-49b7-9ef0-336b49bf9e64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f083f83-a15c-49b7-9ef0-336b49bf9e64")
 		)
 		(pin "GPIOA_PIN8" input
 			(at 92.71 100.33 0)
+			(uuid "0e9f0dc5-da1c-4834-b5d7-f3a7ca2b59cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e9f0dc5-da1c-4834-b5d7-f3a7ca2b59cf")
 		)
 		(pin "GPIOA_PIN9" input
 			(at 92.71 97.79 0)
+			(uuid "0cf117e5-9780-4313-b65c-4eece38560c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0cf117e5-9780-4313-b65c-4eece38560c6")
 		)
 		(pin "I2C1_SDA" input
 			(at 92.71 134.62 0)
+			(uuid "22726ec3-8078-4d43-a0ef-0a5ac342bc11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "22726ec3-8078-4d43-a0ef-0a5ac342bc11")
 		)
 		(pin "I2C1_SCL" input
 			(at 92.71 132.08 0)
+			(uuid "275b5f4c-16e8-4798-a74b-d163efbc9297")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "275b5f4c-16e8-4798-a74b-d163efbc9297")
 		)
 		(pin "SPI1_Miso" output
 			(at 92.71 80.01 0)
+			(uuid "65eb91e4-832f-4e13-8ae5-b874261eb8cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "65eb91e4-832f-4e13-8ae5-b874261eb8cb")
 		)
 		(pin "SPI1_SCK" output
 			(at 92.71 77.47 0)
+			(uuid "668fb82f-3ea3-454c-9ed9-c55ad8d8bcee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "668fb82f-3ea3-454c-9ed9-c55ad8d8bcee")
 		)
 		(pin "GPIOB_PIN9" output
 			(at 92.71 90.17 0)
+			(uuid "ecc72683-dc06-460a-8834-44c5399d1e10")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ecc72683-dc06-460a-8834-44c5399d1e10")
 		)
 		(pin "GPIOB_PIN15" input
 			(at 92.71 105.41 0)
+			(uuid "461557e4-5390-49a0-8b98-4e41eb4fd4df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "461557e4-5390-49a0-8b98-4e41eb4fd4df")
 		)
 		(pin "GPIOB_PIN13" input
 			(at 92.71 110.49 0)
+			(uuid "121683af-3613-4ead-af7f-dde0ba0e1ced")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "121683af-3613-4ead-af7f-dde0ba0e1ced")
 		)
 		(pin "GPIOB_PIN14" input
 			(at 92.71 107.95 0)
+			(uuid "b3b177c2-135e-47ee-a1cb-991016931a22")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3b177c2-135e-47ee-a1cb-991016931a22")
 		)
 		(pin "GPIOB_PIN12" input
 			(at 92.71 113.03 0)
+			(uuid "38dc8692-5209-4699-8264-759fca411129")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "38dc8692-5209-4699-8264-759fca411129")
 		)
 		(pin "GPIOB_PIN6" output
 			(at 92.71 85.09 0)
+			(uuid "00e8fd18-8c1d-4947-8522-cf80eb7163c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "00e8fd18-8c1d-4947-8522-cf80eb7163c4")
 		)
 		(pin "SPI1_Mosi" output
 			(at 92.71 82.55 0)
+			(uuid "4427fd8a-dd4c-4767-be99-5632fcda61d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4427fd8a-dd4c-4767-be99-5632fcda61d9")
 		)
 		(instances
 			(project "PCB_Module_Payement"
@@ -892,6 +911,10 @@
 	(sheet
 		(at 125.73 73.66)
 		(size 36.83 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -922,203 +945,203 @@
 		)
 		(pin "GPIOB_PIN13" input
 			(at 125.73 110.49 180)
+			(uuid "b2598e8d-ab01-41ae-8c39-ba855e0e9156")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b2598e8d-ab01-41ae-8c39-ba855e0e9156")
 		)
 		(pin "GPIOA_PIN8" input
 			(at 125.73 100.33 180)
+			(uuid "93574f06-4b47-4ba6-8c9e-acccbc515a85")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93574f06-4b47-4ba6-8c9e-acccbc515a85")
 		)
 		(pin "I2C1_SCL" input
 			(at 125.73 132.08 180)
+			(uuid "a3f3223c-85f1-492c-8040-d4d051248597")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a3f3223c-85f1-492c-8040-d4d051248597")
 		)
 		(pin "I2C1_SDA" input
 			(at 125.73 134.62 180)
+			(uuid "96b76249-3bd3-4ba2-84a4-bfbaa1ac350c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96b76249-3bd3-4ba2-84a4-bfbaa1ac350c")
 		)
 		(pin "GPIOA_PIN10" input
 			(at 125.73 95.25 180)
+			(uuid "08b742a0-1227-4f73-af47-b15e176000a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08b742a0-1227-4f73-af47-b15e176000a4")
 		)
 		(pin "GPIOB_PIN15" input
 			(at 125.73 105.41 180)
+			(uuid "def35081-0bd1-4f0d-9709-5e4be6c80fda")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "def35081-0bd1-4f0d-9709-5e4be6c80fda")
 		)
 		(pin "SPI1_Miso" input
 			(at 125.73 80.01 180)
+			(uuid "0ead2e50-e759-4915-a8c9-592f8bee1621")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ead2e50-e759-4915-a8c9-592f8bee1621")
 		)
 		(pin "SPI1_Mosi" input
 			(at 125.73 82.55 180)
+			(uuid "7065d6c8-0d4b-41a7-b17e-9010a28ad478")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7065d6c8-0d4b-41a7-b17e-9010a28ad478")
 		)
 		(pin "SPI1_SCK" input
 			(at 125.73 77.47 180)
+			(uuid "291de136-e759-42da-abb8-1df3f22c531f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "291de136-e759-42da-abb8-1df3f22c531f")
 		)
 		(pin "USART2_TX" input
 			(at 125.73 121.92 180)
+			(uuid "92adba37-802f-43f6-9e46-73d3c1c809ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "92adba37-802f-43f6-9e46-73d3c1c809ae")
 		)
 		(pin "USART2_RX" output
 			(at 125.73 119.38 180)
+			(uuid "25e0e253-bfdd-4dec-b70f-3fe3e6208d21")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "25e0e253-bfdd-4dec-b70f-3fe3e6208d21")
 		)
 		(pin "GPIOC_PIN6" input
 			(at 125.73 102.87 180)
+			(uuid "ea2bd03f-5254-49df-b0aa-a5c7378437c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea2bd03f-5254-49df-b0aa-a5c7378437c0")
 		)
 		(pin "GPIOB_PIN12" input
 			(at 125.73 113.03 180)
+			(uuid "7e6fd642-e9e4-4caf-8879-9a0c17ad1094")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e6fd642-e9e4-4caf-8879-9a0c17ad1094")
 		)
 		(pin "GPIOA_PIN9" input
 			(at 125.73 97.79 180)
+			(uuid "8ea6ac67-a8ff-4058-bcba-33f5bc958c73")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ea6ac67-a8ff-4058-bcba-33f5bc958c73")
 		)
 		(pin "GPIOB_PIN14" input
 			(at 125.73 107.95 180)
+			(uuid "96e754be-aa05-40a5-8fa4-4c8ee1bb8a53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96e754be-aa05-40a5-8fa4-4c8ee1bb8a53")
 		)
 		(pin "SS" input
 			(at 125.73 85.09 180)
+			(uuid "48a67dda-7117-4ec1-926d-a90a6dbf644e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "48a67dda-7117-4ec1-926d-a90a6dbf644e")
 		)
 		(pin "IRQ" input
 			(at 125.73 87.63 180)
+			(uuid "3cce439a-6a99-4690-b70f-fd195e17696c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3cce439a-6a99-4690-b70f-fd195e17696c")
 		)
 		(pin "RSTO" input
 			(at 125.73 90.17 180)
+			(uuid "75d0f81e-fa55-4eb6-a64b-efe1f48a3cd4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75d0f81e-fa55-4eb6-a64b-efe1f48a3cd4")
 		)
 		(pin "STATE" output
 			(at 125.73 124.46 180)
+			(uuid "0f97b69e-734d-4150-aede-28cec82e31c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f97b69e-734d-4150-aede-28cec82e31c8")
 		)
 		(pin "KEY" input
 			(at 125.73 116.84 180)
+			(uuid "81848932-df21-4473-9e41-520a07eed96e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81848932-df21-4473-9e41-520a07eed96e")
 		)
 		(instances
 			(project "PCB_Module_Payement"
@@ -1131,6 +1154,10 @@
 	(sheet
 		(at 182.88 73.66)
 		(size 49.53 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1172,4 +1199,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
