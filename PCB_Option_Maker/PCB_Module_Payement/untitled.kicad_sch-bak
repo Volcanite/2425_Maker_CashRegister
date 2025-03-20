@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
+			(property "Reference" "U"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprints:SSOP5_ROM"
+			(property "Footprint" "SSOP5_ROM"
 				(at 0 7.366 0)
 				(effects
 					(font
@@ -157,6 +157,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at 40.64 -2.54 180)
 					(length 7.62)
@@ -204,24 +222,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin power_out line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2043,107 +2043,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -2367,12 +2266,6 @@
 		(uuid "24dbd24a-f884-41db-9103-325050e87c53")
 	)
 	(junction
-		(at 77.47 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48cfe684-6366-475e-8ff6-8c2482c88dc8")
-	)
-	(junction
 		(at 118.11 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2419,10 +2312,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea029324-63a9-42a3-b177-c4839bbcbc88")
-	)
-	(no_connect
-		(at 107.95 68.58)
-		(uuid "b977dc63-85d8-45c1-8fec-b878e1306cbf")
 	)
 	(wire
 		(pts
@@ -2616,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 78.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8e9a05-40ae-468d-9cb2-39d5cbe7954d")
-	)
-	(wire
-		(pts
 			(xy 144.78 115.57) (xy 144.78 120.65)
 		)
 		(stroke
@@ -2723,16 +2602,6 @@
 			(type default)
 		)
 		(uuid "680282e2-7053-4d46-a864-2528c3c85926")
-	)
-	(wire
-		(pts
-			(xy 74.93 114.3) (xy 77.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787f7e35-e935-4b70-858e-f6461c3385ee")
 	)
 	(wire
 		(pts
@@ -3367,7 +3236,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 74.93 114.3 0)
+		(at 78.74 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3376,7 +3245,7 @@
 		(fields_autoplaced yes)
 		(uuid "05777e02-60eb-4525-9015-73ac7fe5bda2")
 		(property "Reference" "#PWR05"
-			(at 74.93 118.11 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3254,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 74.93 109.22 0)
+			(at 78.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 114.3 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 114.3 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 74.93 114.3 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,71 +4757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 77.47 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74731184-1b4e-40ba-badd-2d88d93bada3")
-		(property "Reference" "#FLG03"
-			(at 77.47 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 77.978 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 77.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c30a7cb0-6351-4e54-82d2-446731326450")
-		)
-		(instances
-			(project "PCB_Module_Payement"
-				(path "/48ddf8d7-54b6-4c34-8554-2bb8e32bda4b/ac7e33cb-006f-48f6-93b0-aad0d3b0876b"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 152.4 69.85 0)
 		(unit 1)
@@ -5229,9 +5033,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c77e68dc-2e6c-4998-b95e-5c36c5909d09")
 		(property "Reference" "R21"
-			(at 63.5 108.204 0)
+			(at 69.85 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5045,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 63.5 110.744 0)
+			(at 69.85 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
