@@ -6647,7 +6647,7 @@
 		)
 		(uuid "ff6fd814-3c14-48ed-9e3a-64b26b56273f")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 248.92 137.16 180)
 		(effects
 			(font
@@ -6656,16 +6656,6 @@
 			(justify right bottom)
 		)
 		(uuid "008ee3da-f5ae-4471-af7c-55898722fe25")
-	)
-	(label "PC15"
-		(at 40.64 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "051d51ec-3c6a-4e84-87bd-c61b88bd05ed")
 	)
 	(label "BOOT0"
 		(at 55.88 109.22 180)
@@ -6697,15 +6687,15 @@
 		)
 		(uuid "0e4ec53b-00de-41f6-9e18-5054cd4980f4")
 	)
-	(label "PC14"
-		(at 27.94 60.96 180)
+	(label "PA7"
+		(at 27.94 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "10a10b0c-212a-4d8d-9790-66e15235e7ac")
+		(uuid "0e616304-ac71-4274-83fc-997768e5db6c")
 	)
 	(label "SWCLK"
 		(at 128.27 86.36 180)
@@ -6717,6 +6707,16 @@
 		)
 		(uuid "1508fb7e-eaa9-4176-9872-c284f9827ac1")
 	)
+	(label "PC15"
+		(at 40.64 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "250f0010-de33-4aa3-8765-b9a19fef744e")
+	)
 	(label "NRST"
 		(at 68.58 55.88 0)
 		(effects
@@ -6727,16 +6727,6 @@
 		)
 		(uuid "2d2bce66-04b9-44de-a4a0-846029cb3742")
 	)
-	(label "PC13"
-		(at 40.64 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30906e9a-d8c2-492a-8989-af04b780ea57")
-	)
 	(label "USART3_TX"
 		(at 50.8 116.84 0)
 		(effects
@@ -6746,16 +6736,6 @@
 			(justify left bottom)
 		)
 		(uuid "37b7918f-72da-4f17-904a-4b93c24da31c")
-	)
-	(label "PF0"
-		(at 27.94 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "436f66c4-e869-4d01-9066-28756fd78d3c")
 	)
 	(label "SWCLK"
 		(at 278.13 31.75 180)
@@ -6777,7 +6757,7 @@
 		)
 		(uuid "46243dbe-46a5-4934-819b-be74e538ff51")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 269.24 137.16 0)
 		(effects
 			(font
@@ -6806,6 +6786,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e661986-cb2c-4b58-a3bc-d46b11724e98")
+	)
+	(label "PC13"
+		(at 27.94 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eaabd6d-6f25-4045-b011-16fc58ec5c58")
 	)
 	(label "BUZZER"
 		(at 180.34 91.44 0)
@@ -6838,16 +6828,16 @@
 		(uuid "71a8accf-8288-4547-826e-fcf8a2d6e6e2")
 	)
 	(label "Pb1"
-		(at 27.94 63.5 180)
+		(at 40.64 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "84247930-e193-40c0-9b89-754d2e4126db")
+		(uuid "83867830-63ba-4c2d-b07e-b2ea633f5aec")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 123.19 81.28 180)
 		(effects
 			(font
@@ -6887,6 +6877,16 @@
 		)
 		(uuid "8ac8d8ff-1af4-41ac-bbca-29be9ea44cce")
 	)
+	(label "PC14"
+		(at 40.64 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d7f1bb4-2995-4bb6-99af-cd8bcbe2d067")
+	)
 	(label "NRST"
 		(at 278.13 26.67 180)
 		(effects
@@ -6907,17 +6907,7 @@
 		)
 		(uuid "8f66cf0b-7b5b-4ac8-b008-56da6c5d9d6b")
 	)
-	(label "PF1"
-		(at 40.64 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90aa56d0-3539-4e79-b21e-e2e95b6c454b")
-	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 123.19 78.74 180)
 		(effects
 			(font
@@ -6936,6 +6926,16 @@
 			(justify right bottom)
 		)
 		(uuid "976d454d-f214-4c13-82fe-f2ac48e6895f")
+	)
+	(label "PF0"
+		(at 40.64 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f6a2f5e-8215-4e34-9ddc-f4a10a2ee4f9")
 	)
 	(label "SWDIO"
 		(at 128.27 83.82 180)
@@ -6956,6 +6956,16 @@
 			(justify right bottom)
 		)
 		(uuid "b39f563e-0db7-4369-843a-5e0ddcf1f4a9")
+	)
+	(label "PF1"
+		(at 27.94 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6944a10-253b-497a-b6ad-6c38b3ae9852")
 	)
 	(label "D-"
 		(at 269.24 132.08 0)
@@ -7016,16 +7026,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd0fe27f-e058-4b3d-ba0c-a79dec4ce436")
-	)
-	(label "PA7"
-		(at 40.64 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d273dae7-cdb1-4b1d-a772-43b32eb45373")
 	)
 	(label "Bt_Button"
 		(at 201.93 35.56 0)
@@ -7173,27 +7173,16 @@
 		)
 		(uuid "12745b7a-6555-45fc-8b17-10b7a7274fe2")
 	)
-	(hierarchical_label "Row4"
-		(shape output)
-		(at 71.12 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "131dacd0-5506-4a04-af6f-c96deeaf99e4")
-	)
-	(hierarchical_label "Column2"
+	(hierarchical_label "Column4"
 		(shape input)
-		(at 74.93 124.46 180)
+		(at 115.57 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "257f8e21-e7d2-41fb-8998-517a9331dd05")
+		(uuid "133e97ac-46ad-4a15-9766-c53903fdcf24")
 	)
 	(hierarchical_label "Bt_Key"
 		(shape input)
@@ -7217,6 +7206,28 @@
 		)
 		(uuid "2ebb6491-e387-4fcd-ab01-1699cb255908")
 	)
+	(hierarchical_label "Row2"
+		(shape output)
+		(at 74.93 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "351a012e-2417-44f3-ab85-f1bf72419cce")
+	)
+	(hierarchical_label "Column3"
+		(shape input)
+		(at 115.57 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3787718b-8fe9-4b4a-8f74-319142d65b03")
+	)
 	(hierarchical_label "RFID_RST0"
 		(shape output)
 		(at 73.66 111.76 180)
@@ -7238,17 +7249,6 @@
 			(justify left)
 		)
 		(uuid "3d38d1a9-0173-436b-88bb-f1b2367b58c7")
-	)
-	(hierarchical_label "Row1"
-		(shape output)
-		(at 115.57 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "591e1fb1-36ef-4ce3-bdcf-b288c4a9440f")
 	)
 	(hierarchical_label "RFID_SS"
 		(shape output)
@@ -7272,6 +7272,17 @@
 		)
 		(uuid "618f4558-faf2-4553-8a26-a22192bcb22b")
 	)
+	(hierarchical_label "Column2"
+		(shape input)
+		(at 115.57 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "637c48f1-da14-4837-8793-8a38ce3cb08b")
+	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
 		(at 113.03 63.5 0)
@@ -7282,6 +7293,39 @@
 			(justify left)
 		)
 		(uuid "7bb853ec-e4ef-4869-986c-3094482d9f57")
+	)
+	(hierarchical_label "Column1"
+		(shape input)
+		(at 71.12 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "848c42c0-5693-4233-ae41-e6a32a4a7cb4")
+	)
+	(hierarchical_label "Row3"
+		(shape output)
+		(at 74.93 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c477fdb-7af1-4e27-bf27-714c3118aef9")
+	)
+	(hierarchical_label "Row4"
+		(shape output)
+		(at 74.93 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9530ac37-7248-4829-ac7f-a58d7acd404d")
 	)
 	(hierarchical_label "UART2_RX_Bt"
 		(shape input)
@@ -7294,8 +7338,8 @@
 		)
 		(uuid "9e41232b-46c1-4e59-92cc-7393c0f3bb22")
 	)
-	(hierarchical_label "Column4"
-		(shape input)
+	(hierarchical_label "Row1"
+		(shape output)
 		(at 74.93 119.38 180)
 		(effects
 			(font
@@ -7303,18 +7347,7 @@
 			)
 			(justify right)
 		)
-		(uuid "abb957ea-b09d-4946-be52-958f66348aee")
-	)
-	(hierarchical_label "Column1"
-		(shape input)
-		(at 74.93 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0505286-ffec-4f9c-9251-a2f195ae9070")
+		(uuid "a401fb3d-0a91-4afd-8e07-b00f11ec8fb7")
 	)
 	(hierarchical_label "RFID_IRQ"
 		(shape input)
@@ -7326,28 +7359,6 @@
 			(justify right)
 		)
 		(uuid "c1dc8ed3-3354-4acd-a067-9944e2b13fac")
-	)
-	(hierarchical_label "Column3"
-		(shape input)
-		(at 74.93 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c58b3cfe-0101-4e61-9991-b44900c3bfc7")
-	)
-	(hierarchical_label "Row3"
-		(shape output)
-		(at 115.57 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d06c9c53-3d65-4a14-8d77-70fde58f2843")
 	)
 	(hierarchical_label "SPI1_Mosi"
 		(shape input)
@@ -7370,17 +7381,6 @@
 			(justify right)
 		)
 		(uuid "f2c51f99-ed25-4156-85ce-f3ec36aec031")
-	)
-	(hierarchical_label "Row2"
-		(shape output)
-		(at 115.57 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f343731d-4990-4c70-89af-8fd3005e4ea2")
 	)
 	(symbol
 		(lib_id "power:GND")
