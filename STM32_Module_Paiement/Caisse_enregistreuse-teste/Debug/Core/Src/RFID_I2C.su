@@ -1,0 +1,10 @@
+../Core/Src/RFID_I2C.c:43:5:PN532_Reset	8	static
+../Core/Src/RFID_I2C.c:53:6:PN532_Log	16	static
+../Core/Src/RFID_I2C.c:57:6:PN532_Init	16	static
+../Core/Src/RFID_I2C.c:66:6:i2c_read	24	static
+../Core/Src/RFID_I2C.c:70:6:i2c_write	24	static
+../Core/Src/RFID_I2C.c:74:5:PN532_I2C_ReadData	56	dynamic
+../Core/Src/RFID_I2C.c:88:5:PN532_I2C_WriteData	16	static
+../Core/Src/RFID_I2C.c:93:6:PN532_I2C_WaitReady	24	static
+../Core/Src/RFID_I2C.c:107:5:PN532_I2C_Wakeup	8	static
+../Core/Src/RFID_I2C.c:118:6:PN532_I2C_Init	16	static

@@ -1,0 +1,10 @@
+../Core/Src/pn532_stm32f1.c:60:5:PN532_Reset	8	static
+../Core/Src/pn532_stm32f1.c:71:6:PN532_Log	16	static
+../Core/Src/pn532_stm32f1.c:75:6:PN532_Init	16	static
+../Core/Src/pn532_stm32f1.c:84:9:reverse_bit	24	static
+../Core/Src/pn532_stm32f1.c:94:6:spi_rw	24	static
+../Core/Src/pn532_stm32f1.c:116:5:PN532_SPI_ReadData	56	dynamic
+../Core/Src/pn532_stm32f1.c:127:5:PN532_SPI_WriteData	56	dynamic
+../Core/Src/pn532_stm32f1.c:137:6:PN532_SPI_WaitReady	24	static
+../Core/Src/pn532_stm32f1.c:152:5:PN532_SPI_Wakeup	16	static
+../Core/Src/pn532_stm32f1.c:163:6:PN532_SPI_Init	16	static
