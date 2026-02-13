@@ -10,8 +10,8 @@
 
 ## Décomposition du projet :
     Le projet se décompose en trois grandes parties : 
-    - Mécanique : Modélisation et conception de la caisse à l'aide des outils présents à l'école. [lien vers Readme partie mécanique](./Mécanique/README.md)
-    - Electronique : Modélisation et conception d'une carte électronique pour le terminal de paiement permettant l'assemblage de différent module.[lien vers Readme partie électronique](./PCB_Option_Maker/README.md)
-    - Software : Programmation embarquée de la caisse et du terminal de paiement. Réalisation d'une base de donnée hébergé sur serveur. Programmation d'une interface homme machine sur la caisse et d'un site utilisateur pour les clients et staffeurs. [lien vers Readme partie software](./Software/README.md)
+    - Mécanique : Modélisation et conception de la caisse à l'aide des outils présents à l'école
+    - Electronique : Modélisation et conception d'une carte électronique pour le terminal de paiement permettant l'assemblage de différent module.
+    - Software : Programmation embarquée de la caisse et du terminal de paiement. Réalisation d'une base de donnée hébergé sur serveur. Programmation d'une interface homme machine sur la caisse et d'un site utilisateur pour les clients et staffeurs.
 
  
